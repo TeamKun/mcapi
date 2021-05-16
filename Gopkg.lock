@@ -2,7 +2,7 @@
 
 
 [[projects]]
-  digest = "1:5a7f89789f7525ea42554556cb384ac2c24c0d1a6447c85bf7dbf9ebc71ed504"
+  digest = "1:77c1398df6c04ddf388307e8be810bfa677029d6f5ce0eba246713667fe6c4b8"
   name = "github.com/Tnze/go-mc"
   packages = [
     "bot",
@@ -14,6 +14,7 @@
     "net",
     "net/CFB8",
     "net/packet",
+    "yggdrasil",
   ]
   pruneopts = "UT"
   revision = "0acecb936de8dbcb65694475022b28b05431c788"
@@ -28,31 +29,12 @@
   version = "v1.2.0"
 
 [[projects]]
-  digest = "1:304d25ecc3f4ca39f894c959254d3f5fc6176276ccf1f874ded0cd441e2f964f"
-  name = "github.com/mattn/go-colorable"
+  digest = "1:6078383dbb7405bfa3ce16957f37564e3b716afa29b6eb45ffdb6674624d1e0d"
+  name = "github.com/gorilla/mux"
   packages = ["."]
   pruneopts = "UT"
-  revision = "2e1b0c1546e0173c0907cf05c67b8ba29ed8b4d1"
-  version = "v0.1.8"
-
-[[projects]]
-  digest = "1:0c58d31abe2a2ccb429c559b6292e7df89dcda675456fecc282fa90aa08273eb"
-  name = "github.com/mattn/go-isatty"
-  packages = ["."]
-  pruneopts = "UT"
-  revision = "7b513a986450394f7bbf1476909911b3aa3a55ce"
-  version = "v0.0.12"
-
-[[projects]]
-  branch = "master"
-  digest = "1:4f78336ad4b4d19bdac6ab457118af29d5c0b2631ac678fd5e45248f79b20bca"
-  name = "golang.org/x/sys"
-  packages = [
-    "internal/unsafeheader",
-    "unix",
-  ]
-  pruneopts = "UT"
-  revision = "e8d321eab015fdac193488ca80676aafc248f81d"
+  revision = "98cb6bf42e086f6af920b965c38cacc07402d51b"
+  version = "v1.8.0"
 
 [solve-meta]
   analyzer-name = "dep"
@@ -61,11 +43,9 @@
     "github.com/Tnze/go-mc/bot",
     "github.com/Tnze/go-mc/bot/basic",
     "github.com/Tnze/go-mc/chat",
-    "github.com/Tnze/go-mc/data/lang/en-us",
-    "github.com/Tnze/go-mc/data/packetid",
-    "github.com/Tnze/go-mc/net/packet",
+    "github.com/Tnze/go-mc/yggdrasil",
     "github.com/google/uuid",
-    "github.com/mattn/go-colorable",
+    "github.com/gorilla/mux",
   ]
   solver-name = "gps-cdcl"
   solver-version = 1
