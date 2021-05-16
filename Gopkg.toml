@@ -1,0 +1,15 @@
+[[constraint]]
+  name = "github.com/Tnze/go-mc"
+  version = "1.16.5-pre2"
+
+[[constraint]]
+  name = "github.com/google/uuid"
+  version = "1.2.0"
+
+[[constraint]]
+  name = "github.com/mattn/go-colorable"
+  version = "0.1.8"
+
+[prune]
+  go-tests = true
+  unused-packages = true
